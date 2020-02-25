@@ -9,8 +9,8 @@ SETUP:
 		listener 1883
 		protocol mqtt
 	
-		listener websockets
-		protocol 1884
+		listener 1884
+		protocol websockets
 	
 	and run 'mosquitto -c /etc/mosquitto/conf.d/mosquitto.conf' to run mosquitto in the forground and activate the websockets. You might have to stop an already running broker with 'systemctl stop mosquitto'
 
